@@ -3,8 +3,8 @@
 import os
 
 # 定义一个字符串
-str = 'asgdhfjgoruewkq'
-#反转输出
-str1 = sorted(str)
+str = input("请输入一个字符串:")
+# 反转输出
+str1 = list(str)
 str1.reverse()
 print(str1)
